@@ -1,0 +1,45 @@
+/* Loader.css */
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Вы можете настроить высоту по вашему усмотрению */
+  margin-top: 20px; /* Расстояние от галереи */
+}
+
+.wave {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dot {
+  width: 15px;
+  height: 15px;
+  background-color: #007bff; /* Синий цвет для точек */
+  border-radius: 50%;
+  margin: 0 5px;
+  animation: wave 1.5s infinite ease-in-out;
+}
+
+.dot:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.dot:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.dot:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+@keyframes wave {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}

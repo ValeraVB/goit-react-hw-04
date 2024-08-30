@@ -1,0 +1,39 @@
+/* Стили для общего контейнера приложения */
+.app {
+  display: flex;
+  flex-direction: column; /* Размещаем элементы вертикально */
+  align-items: center; /* Центрируем элементы по горизонтали */
+  padding-top: 80px; /* Отступ сверху для галереи, чтобы учесть высоту header */
+}
+
+/* Стили для галереи изображений */
+.image-gallery {
+  margin-top: 20px; /* Отступ сверху для галереи */
+  gap: 10px; /* Отступ между изображениями */
+}
+
+/* Пример стилей для изображений в галерее (если они еще не заданы) */
+.image-gallery img {
+  max-width: 100%; /* Ограничиваем ширину изображений */
+  border-radius: 4px; /* Закругляем углы изображений */
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0; /* Отступы сверху и снизу */
+}
+
+.center-loader {
+  /* Дополнительные стили для центрального расположения */
+  height: 100px; /* Высота контейнера для Loader */
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Высота контейнера для Loader */
+  margin-top: 20px; /* Отступ между галереей и Loader */
+}
