@@ -1,5 +1,5 @@
 import ImageCard from "../ImageCard/ImageCard";
-import Loader from "../Loader/Loader"; // Импортируем компонент Loader
+import Loader from "../Loader/Loader";
 import "./ImageGallery.css";
 
 const ImageGallery = ({ images, onImageClick, isLoading }) => {

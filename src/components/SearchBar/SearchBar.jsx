@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { toast } from "react-hot-toast"; // Импортируем библиотеку для сповіщений
+import { toast } from "react-hot-toast";
 import "./SearchBar.css";
 
 const SearchBar = ({ onSearch }) => {
@@ -8,13 +8,10 @@ const SearchBar = ({ onSearch }) => {
   const handleSearch = (e) => {
     e.preventDefault();
 
-    // Проверяем, если поле ввода пустое
     if (query.trim() === "") {
-      toast.error("Please enter text to search images."); // Показываем сповіщення
-      return; // Выходим из функции, не вызывая onSearch
+      toast.error("Please enter text to search images.");
     }
 
-    // Вызываем функцию onSearch, если есть текст
     onSearch(query);
   };
 

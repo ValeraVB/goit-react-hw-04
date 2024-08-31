@@ -1,7 +1,6 @@
 import Modal from "react-modal";
 import "./ImageModal.css";
 
-// Устанавливаем корневой элемент для модального окна
 Modal.setAppElement("#root");
 
 const ImageModal = ({ image, onClose }) => {
@@ -14,8 +13,8 @@ const ImageModal = ({ image, onClose }) => {
       contentLabel="Image Modal"
       className="modal-content"
       overlayClassName="modal-overlay"
-      shouldCloseOnEsc={true} // Закрытие при нажатии ESC
-      shouldCloseOnOverlayClick={true} // Закрытие при клике вне модального окна
+      shouldCloseOnEsc={true}
+      shouldCloseOnOverlayClick={true}
     >
       <button className="modal-close" onClick={onClose}>
         X

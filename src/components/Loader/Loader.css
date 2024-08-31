@@ -1,10 +1,9 @@
-/* Loader.css */
 .loader-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100px; /* Вы можете настроить высоту по вашему усмотрению */
-  margin-top: 20px; /* Расстояние от галереи */
+  height: 100px;
+  margin-top: 20px;
 }
 
 .wave {
@@ -16,7 +15,7 @@
 .dot {
   width: 15px;
   height: 15px;
-  background-color: #007bff; /* Синий цвет для точек */
+  background-color: #007bff;
   border-radius: 50%;
   margin: 0 5px;
   animation: wave 1.5s infinite ease-in-out;

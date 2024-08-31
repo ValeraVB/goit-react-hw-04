@@ -70,7 +70,7 @@ const App = () => {
         )}
       </div>
       <ImageModal image={selectedImage} onClose={handleCloseModal} />
-      <Toaster /> {/* Добавляем Toaster для отображения сповіщених */}
+      <Toaster />
     </div>
   );
 };

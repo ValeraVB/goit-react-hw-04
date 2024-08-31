@@ -1,8 +1,7 @@
-/* ErrorMessage.css */
 .error-message {
   color: red;
-  margin: 20px 0; /* Отступы сверху и снизу */
-  text-align: center; /* Центрируем текст внутри контейнера */
-  width: 100%; /* Ширина контейнера на всю доступную ширину */
-  max-width: 600px; /* Опционально: Ограничение ширины сообщения */
+  margin: 20px 0; 
+  text-align: center; 
+  width: 100%; 
+  max-width: 600px; 
 }
